@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* UserTable.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center; /* Vertically center the pagination */
+}
+
+.pagination li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Style for "Previous" and "Next" buttons */
+.pagination li:first-child,
+.pagination li:last-child {
+  margin-right: 10px; /* Add spacing between "Previous" and "Next" buttons and page numbers */
+}
+
+/* Style for pagination links (a) */
+.pagination li a {
+  padding: 8px 16px;
+  border: 1px solid #009688; /* Teal border color */
+  text-decoration: none;
+  color: #009688; /* Teal text color */
+  background-color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* .pagination li a:hover {
+  background-color: #009688; 
+  color: #fff; 
+} */
+
+/* Style for the active page */
+.active {
+  background-color: #009688; /* Teal background color for the active page */
+  color: #fff; /* White text color for the active page */
+}
