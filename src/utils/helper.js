@@ -9,7 +9,6 @@ export default generateUniqueId = (length = 8) => {
   
     return uniqueId;
   }
-  
-  // Example usage:
-  const uniqueId = generateUniqueId(); // Generates a random 8-character ID
+ 
+  const uniqueId = generateUniqueId();
   

@@ -31,7 +31,7 @@ const UserSearch = ({ searchQuery, setSearchQuery }) => {
           onChange={handleSearch}
           borderColor="gray.300"
           _focus={{ borderColor: 'teal.300' }}
-          size="md" // Adjust input size for better mobile usability
+          size="md"
         />
         {searchQuery && (
           <InputRightElement width="2.5rem">
@@ -40,7 +40,7 @@ const UserSearch = ({ searchQuery, setSearchQuery }) => {
               aria-label="Clear Search"
               size="xs"
               onClick={handleClearSearch}
-              variant="unstyled" // Remove button styling for better mobile appearance
+              variant="unstyled"
             />
           </InputRightElement>
         )}

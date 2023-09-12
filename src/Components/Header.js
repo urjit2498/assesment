@@ -12,13 +12,6 @@ const DashboardHeader = () => {
       <Flex alignItems="center">
         <Heading size="md">Dashboard</Heading>
         <Spacer />
-        {/* <HStack spacing={4}>
-          <Text>Welcome, John Doe</Text>
-          <Avatar name="John Doe" size="sm" />
-          <Button colorScheme="teal" size="sm">
-            Logout
-          </Button>
-        </HStack> */}
       </Flex>
     </Box>
   );

@@ -23,7 +23,7 @@ function App() {
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const isMobile = window.innerWidth < 768; // Adjust this breakpoint as needed
+  const isMobile = window.innerWidth < 768;
 
   const filteredUsers = users.filter((user) => {
     const name = user.name || '';
